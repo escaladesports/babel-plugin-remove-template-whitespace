@@ -13,7 +13,7 @@ module.exports = function (_ref) {
 
 	return {
 		visitor: {
-			TemplateLiteral: function TemplateLiteral(node, parent, scope, file) {
+			TemplateLiteral: function TemplateLiteral(obj, parent, scope, file) {
 				var _iteratorNormalCompletion = true;
 				var _didIteratorError = false;
 				var _iteratorError = undefined;
@@ -42,3 +42,5 @@ module.exports = function (_ref) {
 		}
 	};
 };
+
+var regBreaks = /\t|\n/g;

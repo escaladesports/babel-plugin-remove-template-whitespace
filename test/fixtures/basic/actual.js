@@ -1,5 +1,5 @@
 const template = `
-	<div>
+	<div class="test">
 		Whitespace
 	</div>
 `

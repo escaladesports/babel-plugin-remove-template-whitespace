@@ -1,4 +1,4 @@
 "use strict";
 
-var template = "<div>Whitespace</div>";
+var template = "<div class=\"test\">Whitespace</div>";
 hiThere();
