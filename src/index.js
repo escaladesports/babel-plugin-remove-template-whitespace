@@ -4,8 +4,8 @@ module.exports = function ({ types: t }) {
 	return {
 		visitor: {
 			TemplateLiteral: function(node, parent, scope, file){
-				for(let i in node){
-					console.log(i)
+				for(let elem of obj.node.quasis){
+					elem.value.cooked = elem.value.cooked.replace(regBreaks, '')
 				}
 			}
 		}
