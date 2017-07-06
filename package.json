@@ -1,6 +1,6 @@
 {
   "name": "babel-plugin-remove-template-whitespace",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "license": "MIT",
   "main": "dist/index.js",
   "dependencies": {
