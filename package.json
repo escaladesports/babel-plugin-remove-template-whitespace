@@ -1,6 +1,6 @@
 {
   "name": "babel-plugin-remove-string-whitespace",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "license": "MIT",
   "main": "dist/index.js",
   "dependencies": {
@@ -26,7 +26,7 @@
   },
   "keywords": [
     "babel-plugin",
-	 "template",
-	 "whitespace"
+    "template",
+    "whitespace"
   ]
 }
